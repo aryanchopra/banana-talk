@@ -11,6 +11,8 @@ body {
   font-size: 27px;
   background: darkgoldenrod;
   margin-bottom: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .content {
@@ -23,6 +25,7 @@ body {
 }
 
 .input-text {
+  border-radius: 20px;
   box-sizing: border-box;
   height: 100px;
   width: 100%;
@@ -40,9 +43,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  border-style: none;
+  border-radius: 20px;
 }
 
 .output-text {
+  border-radius: 20px;
   box-sizing: border-box;
   padding: 10px;
   height: 100px;
@@ -63,4 +69,10 @@ footer {
   width: 100%;
   text-align: center;
   background: darkgoldenrod;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer p {
+  padding: 10px;
 }
