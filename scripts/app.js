@@ -20,6 +20,8 @@ translateBtn.addEventListener("click", () => {
       outputbox.innerText = translated;
     })
     .catch((err) => {
-      alert("A server error occured, please try again in sometime!: ", err);
+      alert(
+        "Oops! Looks like the server isn't responding. Please check back a while later!"
+      );
     });
 });
